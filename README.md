@@ -15,10 +15,9 @@ select rolname, rolcanlogin from pg_roles;
 DROP SCHEMA IF EXISTS schema_shop;
 CREATE SCHEMA schema_shop;
 
-
 DROP TABLE IF EXISTS schema_shop.products CASCADE;
 CREATE TABLE schema_shop.products(
-	"id" BIGINT NOT NULL,
+    "id" BIGINT NOT NULL,
     "category_id" BIGINT NOT NULL,
     "name" VARCHAR(255) NOT NULL,
     "description" TEXT NOT NULL,
