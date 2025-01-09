@@ -1,7 +1,6 @@
 CREATE DATABASE shop_db;
 select * from pg_database;
 
-
 CREATE TABLESPACE my_tablespace LOCATION '/path/to/tablespace/directory';
 select * from pg_tablespace;
 
