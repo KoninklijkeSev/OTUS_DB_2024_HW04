@@ -1,5 +1,3 @@
-# OTUS_DB_2024_HW04
-
 ## **Домашнее задание**
 
 **Цель:**
@@ -152,9 +150,3 @@ ALTER TABLE schema_shop.products ADD CONSTRAINT "products_category_id_foreign" F
 ALTER TABLE schema_shop.products ADD CONSTRAINT "products_manufacturer_id_foreign" FOREIGN KEY("manufacturer_id") REFERENCES schema_shop.manufacturers("id");
 ALTER TABLE schema_shop.prices ADD CONSTRAINT "prices_product_id_foreign" FOREIGN KEY("product_id") REFERENCES schema_shop.products("id");
 '''
-
-
-
-
-
-
